@@ -1,5 +1,5 @@
 @media (max-width: 576px) {
-  .nav-section {
+  .nav-section, .banner-section{
     width: 90%;
   }
 
@@ -11,5 +11,29 @@
   }
   .manu-icon {
     display: block;
+  }
+
+  .banner-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .banner-content {
+    width: 90%;
+
+  }
+  .banner-content h1{
+    font-size: 5rem;
+  }
+  .btn {
+    width: 40%;
+    font-size: 1.3rem;
+    padding: 10px 0;
+    margin-right: 10px;
+  }
+  .banner-img{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
   }
 }
