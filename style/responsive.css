@@ -1,0 +1,15 @@
+@media (max-width: 576px) {
+    .nav-section{
+        width: 90%;
+    }
+    
+  .logo {
+    font-size: 2.5rem;
+  }
+  .manu ul {
+    display: none;
+  }
+  .manu-icon {
+    display: block;
+  }
+}
