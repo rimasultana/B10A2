@@ -78,5 +78,49 @@ header {
   font-size: 2rem;
 }
 /* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
-                     hero-section
+                     banner-section
 ==++==++==++==++==++==++==++==++==++==++==++== --> */
+.banner-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  width: 50%;
+  text-align: left;
+}
+.banner-content h1 {
+  color: var(--secondary-color);
+  font-size: 8rem;
+  font-weight: 900;
+  margin-bottom: 28px;
+}
+.special-text {
+  font-family: "Miama", sans-serif;
+}
+.btn {
+  margin-top: 28px;
+  margin-right: 15px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 20px 50px;
+  border-radius: 40px;
+}
+.btn-2 {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255);
+  background:rgba(255, 255, 255, 0.1);
+}
+.banner-img {
+  width: 50%;
+  text-align: end;
+}
+.banner-img img{
+  max-width: 100%;
+}
