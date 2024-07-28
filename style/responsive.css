@@ -1,5 +1,7 @@
 @media (max-width: 576px) {
-  .nav-section {
+  .nav-section,
+  .banner-content,
+  .banner-section {
     width: 90%;
   }
 
@@ -19,22 +21,18 @@
     text-align: left;
   }
 
-  .banner-section,
-  .banner-content {
-    width: 90%;
-  }
   .banner-content h1 {
     font-size: 5.5rem;
   }
   .btn {
-    width: 30%;
+    width: 40%;
     font-size: 1.3rem;
     padding: 10px 0;
     margin-right: 10px;
   }
   .banner-img {
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin-top: 30px;
   }
   #play {
@@ -43,13 +41,12 @@
     z-index: 3;
   }
   .card-1 {
-    position: absolute;
     bottom: 230px;
     left: 30px;
   }
   .card-2 {
     width: 150px;
     top: -200px;
-    left: 150px;
+    left: 200px;
   }
 }
