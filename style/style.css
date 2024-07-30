@@ -182,13 +182,56 @@ header {
   position: absolute;
   left: 340px;
   bottom: 270px;
-  
-
 }
 .card-2 h1 {
   color: rgb(255, 255, 255);
   font-size: 4rem;
   font-weight: 900;
   text-align: left;
+  margin-bottom: 8px;
+}
+/* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
+Change Your Habits-section
+==++==++==++==++==++==++==++==++==++==++==++== --> */
+main {
+  background-color: #000000;
+}
+.habits-section {
+  max-width: 80%;
+  margin: 0 auto;
+  color: aliceblue;
+}
+.title {
+  color: var(--secondary-color);
+  font-size: 5rem;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 15px;
+}
+.description {
+  color: var(--paragraph-color);
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+}
+.habits-section-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.habits-content {
+  text-align: center;
+}
+.habits-content img {
+  border-radius: 50%;
+}
+.habits-content h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-top: 28px;
   margin-bottom: 8px;
 }
