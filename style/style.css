@@ -44,7 +44,8 @@ header {
   font-weight: 800;
 }
 .manu {
-  width: 45%;
+  width: 50%;
+  text-align: end;
 }
 
 .manu ul {
@@ -121,7 +122,7 @@ header {
 }
 .banner-img {
   width: 50%;
-  text-align: end;
+  text-align: center;
   position: relative;
 }
 .banner-img img {
@@ -130,12 +131,12 @@ header {
 
 #play {
   position: absolute;
-  top: 350px;
-  right: 380px;
+  top: 360px;
+  right: 540px;
 }
 .card-1 {
-  width: 200px;
-  height: 100px;
+  width: 190px;
+  height: 90px;
   display: flex;
   gap: 12px;
   justify-content: center;
@@ -143,10 +144,10 @@ header {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(3px);
   background: rgba(48, 48, 48, 0.54);
   position: absolute;
-  right: 250px;
+  right: 370px;
   bottom: 70px;
 }
 .circle {
@@ -175,12 +176,12 @@ header {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-  backdrop-filter: blur(22px);
+  backdrop-filter: blur(5px);
   background: rgba(255, 255, 255, 0.1);
   padding: 10px 30px 5px 30px;
   position: absolute;
   left: 340px;
-  bottom: 250px;
+  bottom: 270px;
   
 
 }

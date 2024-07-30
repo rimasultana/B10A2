@@ -1,7 +1,7 @@
 @media (max-width: 576px) {
   .nav-section,
-  .banner-content,
-  .banner-section {
+  .banner-section,
+  .banner-content {
     width: 90%;
   }
 
@@ -47,6 +47,6 @@
   .card-2 {
     width: 150px;
     top: -200px;
-    left: 200px;
+    left: 210px;
   }
 }
