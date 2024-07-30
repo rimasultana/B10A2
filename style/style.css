@@ -191,7 +191,7 @@ header {
   margin-bottom: 8px;
 }
 /* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
-Change Your Habits-section
+               Change Your Habits-section
 ==++==++==++==++==++==++==++==++==++==++==++== --> */
 main {
   background-color: #000000;
@@ -234,4 +234,46 @@ main {
   font-weight: 600;
   margin-top: 28px;
   margin-bottom: 8px;
+}
+/* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
+                       Run-section
+==++==++==++==++==++==++==++==++==++==++==++== --> */
+.run-section {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.run-section-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  padding: 30px 20px 20px 60px;
+}
+.run-content {
+  width: 50%;
+  text-align: left;
+}
+.run-content h2 {
+  color: var(--secondary-color);
+  font-size: 5.5rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.run-content p{
+  line-height: 25px;
+}
+.btn-3 {
+  padding: 14px 50px;
+  margin-top: 40px;
+}
+.run-img {
+  text-align: end;
+  width: 50%;
+}
+.run-img img {
+  max-width: 100%;
+  height: 312px;
+  border-radius: 20px;
 }
