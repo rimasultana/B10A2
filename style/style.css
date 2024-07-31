@@ -14,6 +14,9 @@ p {
   font-size: 1.4rem;
   font-weight: 400;
 }
+img {
+  max-width: 100%;
+}
 :root {
   --primary-color: rgb(230, 83, 60);
   --secondary-color: rgb(255, 255, 255);
@@ -261,7 +264,7 @@ main {
   font-weight: bold;
   margin-bottom: 25px;
 }
-.run-content p{
+.run-content p {
   line-height: 25px;
 }
 .btn-3 {
@@ -276,4 +279,141 @@ main {
   max-width: 100%;
   height: 312px;
   border-radius: 20px;
+}
+/* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
+                   BMI Calculator-section
+==++==++==++==++==++==++==++==++==++==++==++== --> */
+.BMI-Calculator-content {
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 300px;
+  margin-bottom: 90px;
+}
+.BMI-Calculator-content h1 {
+  color: var(--secondary-color);
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 120%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.BMI-Calculator-section {
+  background: rgb(34, 34, 34);
+}
+.BMI-Calculator-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calculator-chart {
+  width: 50%;
+}
+.BMI-title {
+  color: var(--secondary-color);
+  font-size: 2.8rem;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.BMI-description {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: left;
+}
+th {
+  color: var(--secondary-color);
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.calculator-BMI {
+  width: 50%;
+  text-align: left;
+}
+input {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 20px;
+  border: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+select {
+  width: 250px;
+  height: 60px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: left;
+  border: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+.select-factor {
+  width: 516px;
+  padding-right: 10px;
+}
+.btn-4 {
+  padding: 15px 60px;
+}
+/* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
+                Meet Our Team-section
+==++==++==++==++==++==++==++==++==++==++==++== --> */
+.team-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.team-container {
+  margin-top: 60px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 2fr);
+  border-radius: 16px;
+  padding: 20px;
+}
+.team-members {
+  position: relative;
+}
+
+.team-members img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+.team-member-details {
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+}
+.team-member-details h3 {
+  color: var(--secondary-color);
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 8px;
 }
