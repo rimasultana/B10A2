@@ -319,9 +319,11 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid green;
 }
 .calculator-chart {
   width: 50%;
+  border: 2px solid yellow;
 }
 .BMI-title {
   color: var(--secondary-color);
@@ -358,6 +360,7 @@ th {
 .calculator-BMI {
   width: 50%;
   text-align: left;
+  border: 2px solid khaki;
 }
 input {
   border-radius: 8px;
@@ -409,7 +412,7 @@ select {
   background-position: center;
   background-blend-mode: overlay;
   opacity: 0.8;
-  border-radius: 8px;
+  border-radius: 16px;
 }
 .sign-up-container {
   text-align: center;
