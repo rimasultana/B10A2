@@ -380,47 +380,13 @@ select {
 }
 .btn-4 {
   padding: 15px 60px;
-}
-/* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
-                Meet Our Team-section
-==++==++==++==++==++==++==++==++==++==++==++== --> */
-.team-section {
-  width: 80%;
-  margin: 0 auto;
-}
-.team-container {
-  margin-top: 60px;
-  background-color: rgba(255, 255, 255, 0.1);
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3, 2fr);
-  border-radius: 16px;
-  padding: 20px;
-}
-.team-members {
-  position: relative;
+  margin-bottom: 50px;
 }
 
-.team-members img {
-  width: 100%;
-  height: 300px;
-  border-radius: 20px;
-}
-.team-member-details {
-  position: absolute;
-  left: 20px;
-  bottom: 25px;
-}
-.team-member-details h3 {
-  color: var(--secondary-color);
-  font-size: 2.8rem;
-  font-weight: bold;
-  text-align: left;
-  margin-bottom: 8px;
-}
 /* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
-                    Sign-up-section
+                Make-Me-New-section
 ==++==++==++==++==++==++==++==++==++==++==++== --> */
+
 .sign-up-section {
   max-width: 80%;
   margin: 0 auto;
@@ -440,7 +406,7 @@ select {
 }
 .sign-up-container h1 {
   font-size: 2rem;
-  font-weight: 900;
+  font-weight: bold;
   color: black;
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 50px;
@@ -472,8 +438,96 @@ select {
 }
 
 /* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
+                Meet Our Team-section
+==++==++==++==++==++==++==++==++==++==++==++== --> */
+.team-section {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.team-container {
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 60px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 2fr);
+  border-radius: 16px;
+  opacity: 0.8;
+  padding: 20px;
+}
+.team-members {
+  position: relative;
+}
+
+.team-members img {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+.team-member-details {
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+}
+.team-member-details h3 {
+  color: var(--secondary-color);
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+/* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
                    footer-section
 ==++==++==++==++==++==++==++==++==++==++==++== --> */
 footer {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--background);
+}
+.footer-container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--secondary-color);
+  text-align: left;
+  padding-top: 70px;
+}
+
+.footer-logo {
+  font-size: 7rem;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.footer-content-1 p {
+  line-height: 25px;
+}
+.start-title {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.hr {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.footer-down {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+  opacity: 0.7;
+  text-align: center;
+  padding-bottom: 30px;
 }
