@@ -1,6 +1,7 @@
 @media (max-width: 576px) {
   .nav-section,
-  .banner-section {
+  .banner-section,
+  .habits-section {
     width: 90%;
   }
 
@@ -30,7 +31,7 @@
   .btn {
     width: 45%;
     font-size: 1.3rem;
-    padding: 15px ;
+    padding: 15px;
     margin-right: 15px;
   }
   .banner-img {
@@ -52,13 +53,14 @@
     top: -210px;
     left: 240px;
   }
- 
+  .habits-section-container{
+    flex-direction: column;
+  }
 }
-@media (min-width: 375px) and (max-width:495px) {
+@media (min-width: 375px) and (max-width: 495px) {
   .card-2 {
     width: 160px;
     top: -210px;
     left: 170px;
   }
-  
 }
