@@ -3,10 +3,9 @@
   .banner-section,
   .habits-section,
   .run-section,
-  .BMI-Calculator-container,
   .sign-up-section,
   .team-section,
-  .footer-container  {
+  .footer-container {
     width: 90%;
   }
 
@@ -26,8 +25,8 @@
     align-items: flex-start;
     text-align: left;
   }
-  .banner-content {
-    width: 90%;
+  .banner-content{
+    width: 100%;
   }
 
   .banner-content h1 {
@@ -36,7 +35,7 @@
   .btn {
     width: 45%;
     font-size: 1.3rem;
-    padding: 15px;
+    padding: 15px 50px;
     margin-right: 15px;
   }
   .banner-img {
@@ -61,8 +60,17 @@
   .habits-section-container,
   .run-section-container,
   .BMI-Calculator-container,
-  .footer-container  {
+  .footer-container {
     flex-direction: column;
+  }
+  .run-section-container {
+    padding: 30px;
+  }
+  .btn-3 {
+    text-align: center;
+    padding: 8px 180px;
+    margin-left: 0px;
+    font-size: 2rem;
   }
   .run-content,
   .run-img,
@@ -71,11 +79,11 @@
   .footer-content-1,
   .footer-content-2,
   .footer-content-3,
-  .hr
-  {
+  .hr {
     width: 100%;
     margin-top: 30px;
   }
+
   .BMI-Calculator-content {
     width: 90%;
     text-align: start;
@@ -98,14 +106,21 @@
     width: 300px;
     margin-bottom: 15px;
   }
-  .team-container{
+  .team-container {
     grid-template-columns: repeat(1, 6fr);
   }
-  .team-members img{
-    width: 90%;
-    height: 300px;
+
+  input {
+    width: 155px;
+    height: 15px;
   }
- 
+  select {
+    width: 200px;
+    height: 60px;
+  }
+  .select-factor {
+    width: 420px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 495px) {
@@ -113,5 +128,19 @@
     width: 160px;
     top: -210px;
     left: 170px;
+  }
+  .btn-3 {
+    padding: 5px 130px;
+  }
+  input {
+    width: 110px;
+    height: 10px;
+  }
+  select {
+    width: 150px;
+    height: 60px;
+  }
+  .select-factor {
+    width: 324px;
   }
 }
