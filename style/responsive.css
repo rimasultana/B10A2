@@ -3,9 +3,11 @@
   .banner-section,
   .habits-section,
   .run-section,
+  .BMI-Calculator-container,
   .sign-up-section,
   .team-section,
-  .footer-container {
+  .footer-container
+  {
     width: 90%;
   }
 
@@ -17,7 +19,6 @@
   }
   .manu-icon {
     display: block;
-    border: 3px solid green;
   }
 
   .banner-container {
@@ -25,7 +26,7 @@
     align-items: flex-start;
     text-align: left;
   }
-  .banner-content{
+  .banner-content {
     width: 100%;
   }
 
@@ -85,9 +86,7 @@
   }
 
   .BMI-Calculator-content {
-    width: 90%;
     text-align: start;
-    border: 2px solid red;
     padding: 5px;
     margin-left: 40px;
     margin-bottom: 50px;
