@@ -70,12 +70,16 @@
   .run-section-container {
     padding: 30px;
   }
-  .run-content h2{
+  .run-content h2 {
     font-size: 4.5rem;
+  }
+  td,
+  th {
+    padding: 20px 50px;
   }
   .btn-3 {
     text-align: center;
-    width: 380px;
+    width: 350px;
   }
   .run-content,
   .run-img,
@@ -92,7 +96,7 @@
   .BMI-Calculator-content {
     text-align: start;
     padding: 5px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 50px;
   }
   .sign-up-container {
@@ -129,10 +133,11 @@
   }
 }
 
-@media (min-width: 375px) and (max-width: 495px) {
-  #play{
-    top: 280px;
+@media (max-width: 485px) {
+  .btn {
+    padding: 20px;
   }
+
   .card-2 {
     width: 160px;
     top: -210px;
@@ -143,15 +148,15 @@
     width: 260px;
   }
   input {
-    width: 110px;
+    width: 130px;
     height: 20px;
   }
   select {
-    width: 150px;
+    width: 168px;
     height: 60px;
   }
   .select-factor {
-    width: 320px;
+    width: 352px;
   }
   .btn-5 {
     width: 200px;
