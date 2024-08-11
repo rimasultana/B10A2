@@ -6,8 +6,7 @@
   .BMI-Calculator-container,
   .sign-up-section,
   .team-section,
-  .footer-container
-  {
+  .footer-container {
     width: 90%;
   }
 
@@ -17,7 +16,7 @@
   .manu ul {
     display: none;
   }
-  .manu-icon {
+  .bars-icon {
     display: block;
   }
 
@@ -107,6 +106,9 @@
   }
   .team-container {
     grid-template-columns: repeat(1, 6fr);
+  }
+  .first-img {
+    display: none;
   }
 
   input {
