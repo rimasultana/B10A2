@@ -75,7 +75,7 @@
   }
   .btn-3 {
     text-align: center;
-    width: 350px;
+    width: 380px;
   }
   .run-content,
   .run-img,
@@ -106,7 +106,7 @@
     font-size: 3rem;
   }
   .btn-5 {
-    width: 230px;
+    width: 260px;
     margin-bottom: 15px;
   }
   .team-container {
@@ -130,6 +130,9 @@
 }
 
 @media (min-width: 375px) and (max-width: 495px) {
+  #play{
+    top: 280px;
+  }
   .card-2 {
     width: 160px;
     top: -210px;
@@ -137,19 +140,18 @@
   }
   .btn-3 {
     text-align: center;
-    padding: 10px 50px;
-    /* padding: 10px 60px; */
+    width: 260px;
   }
   input {
-    width: 140px;
+    width: 110px;
     height: 20px;
   }
   select {
-    width: 160px;
+    width: 150px;
     height: 60px;
   }
   .select-factor {
-    width: 355px;
+    width: 320px;
   }
   .btn-5 {
     width: 200px;
