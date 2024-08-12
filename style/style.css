@@ -19,9 +19,6 @@ p {
 img {
   max-width: 100%;
 }
-.hide {
-  display: none;
-}
 :root {
   --primary-color: rgb(230, 83, 60);
   --secondary-color: rgb(255, 255, 255);
@@ -35,8 +32,7 @@ img {
 
 header {
   padding: 50px 0px 0px 0px;
-  background: rgb(34, 34, 34);
-  background-image: linear-gradient(to bottom, #141414, #222222, #141414);
+  background: linear-gradient(to bottom, #141414, #222222, #141414);
 }
 .nav-section {
   width: 80%;
@@ -126,7 +122,7 @@ header {
 }
 .btn-2 {
   box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255);
+  border: 1px solid var(--secondary-color);
   background: rgba(255, 255, 255, 0.1);
 }
 .banner-img {
@@ -159,8 +155,8 @@ header {
   bottom: 70px;
 }
 .circle {
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: var(--primary-color);
 }
@@ -171,7 +167,7 @@ header {
 }
 .Video-tutorial h2 {
   color: var(--secondary-color);
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 900;
   margin-bottom: 6px;
 }
@@ -318,7 +314,7 @@ main {
   margin-bottom: 15px;
 }
 .BMI-Calculator-section {
-  background: rgb(34, 34, 34);
+  background: var(--background);
 }
 .BMI-Calculator-container {
   width: 80%;

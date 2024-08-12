@@ -68,7 +68,8 @@
     flex-direction: column;
   }
   .run-section-container {
-    padding: 30px;
+    padding: 40px;
+  
   }
   .run-content h2 {
     font-size: 4.5rem;
