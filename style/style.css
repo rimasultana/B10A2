@@ -17,6 +17,10 @@ p {
 img {
   max-width: 100%;
 }
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 :root {
   --primary-color: rgb(230, 83, 60);
   --secondary-color: rgb(255, 255, 255);
@@ -245,7 +249,7 @@ main {
                        Run-section
 ==++==++==++==++==++==++==++==++==++==++==++== --> */
 .run-section {
-width: 80%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 100px;
 }
@@ -375,6 +379,11 @@ input {
   margin-right: 15px;
   margin-bottom: 15px;
 }
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 select {
   width: 250px;
   height: 60px;
@@ -434,9 +443,10 @@ select {
 
 .btn-5 {
   width: 400px;
-  height: 50px;
+  height: 15px;
   font-size: 1.5rem;
   font-weight: 400;
+  cursor: pointer;
   border: 1px solid var(--secondary-color);
   background: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
@@ -446,14 +456,16 @@ select {
   color: var(--secondary-color);
 }
 
-#submit {
+.submit {
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   background-color: var(--primary-color);
-  padding: 17px 25px;
   border-radius: 8px;
   font-size: 1.5rem;
   font-weight: 400;
+  text-align: center;
+  width: 150px;
+  height: 60px;
 }
 
 /* <!-- ==++==++==++==++==++==++==++==++==++==++==++==
